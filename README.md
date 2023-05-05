@@ -45,10 +45,11 @@ HeartBtInt=30
 ResetOnLogon=Y
 
 # Sequence number reset time
+# Assume system timezone is UTC
 [SESSION]
 BeginString=FIX.4.2
-EndTime=23:59:59
-StartTime=00:00:00
+EndTime=15:59:59
+StartTime=16:00:00
 ResetOnLogout=Y
 ResetOnDisconnect=Y
 RefreshOnLogon=Y
